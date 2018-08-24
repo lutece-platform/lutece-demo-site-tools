@@ -22,12 +22,20 @@ section {
     background-color:#303030;
 }
 
+.row {
+    margin-top: -10px;
+}
+
 .card {
     color:#eee;
     font-weight:300;
     text-align: center;
     margin: 20px;
     padding: 20px;
+}
+
+.card i:hover {
+    text-decoration: underline;
 }
 
 .lead {
@@ -47,6 +55,8 @@ section {
 .section-dk .btn {
     background-color: #fff;
     color:#333;
+    font-weight:300;
+
 }
 
 .section-dk a {
@@ -59,7 +69,7 @@ section {
 
 h1.letterpress {
     font-size: 56px;
-  	font-weight:600;
+    font-weight:800;
     letter-spacing:-1px;
     padding-top:30px;
     padding-bottom:30px;
