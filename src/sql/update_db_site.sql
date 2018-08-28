@@ -9,7 +9,7 @@ INSERT INTO core_page VALUES (1,0,'Home','Home Page','2014-06-08 15:20:44',1,1,4
 
 
 TRUNCATE TABLE core_portlet;
-INSERT INTO core_portlet VALUES (1,'HTML_UNTRANSFORMED_PORTLET',1,'Lutece Developer Tools','2018-08-24 22:04:14',0,2,1,0,0,'2011-03-14 12:13:39',1,'none',273);
+INSERT INTO core_portlet VALUES (1,'HTML_UNTRANSFORMED_PORTLET',1,'Lutece Developer Tools','2018-08-24 22:04:14',0,1,1,0,0,'2011-03-14 12:13:39',1,'none',273);
 
 
 
@@ -37,4 +37,5 @@ REPLACE INTO core_datastore VALUES ('core.plugins.status.html.installed' ,'true'
 REPLACE INTO core_datastore VALUES ('core.plugins.status.html.pool' ,'portal' );
 REPLACE INTO core_datastore VALUES ('core.plugins.status.systeminfo.installed' ,'true' );
 
- 
+-- 
+REPLACE INTO core_datastore VALUES ('lutecetools.site_property.globalPom.version', '4.0.4' ); 
